@@ -2,6 +2,7 @@
 
 # Vue.js modal
 
+##### Forked from https://github.com/euvl/vue-js-modal
 ##### Simple to use, highly customizable, mobile friendly Vue.js 2.0+ modal. http://vue-js-modal.yev.io/
 ##### (now works with SSR)
 <p align="center">
@@ -13,7 +14,7 @@ Demo: http://vue-js-modal.yev.io/
 ### Install
 
 ```bash
-npm install vue-js-modal --save
+npm install tmyers273.vue-js-modal --save
 ```
 
 ### How to use
@@ -21,9 +22,9 @@ npm install vue-js-modal --save
 Include plugin in your `main.js` file.
 
 ```javascript
-import vmodal from 'vue-js-modal'
+import VueModal from 'tmyers273.vue-js-modal'
 
-Vue.use(vmodal)
+Vue.use(VueModal)
 ```
 
 Create modal:
@@ -52,7 +53,7 @@ Include plugin in your `nuxt.config.js` file:
 
 ```javascript
 module.exports = {
-  plugins: ['~plugins/vue-js-modal']
+  plugins: ['~plugins/tmyers273.vue-js-modal']
 }
 ```
 
@@ -60,7 +61,7 @@ And your `plugins/vue-js-modal.js` will look like:
 
 ```javascript
 import Vue from 'vue'
-import VModal from 'vue-js-modal/dist/ssr.index'
+import VModal from 'tmyers273.vue-js-modal/dist/ssr.index'
 
 Vue.use(VModal)
 ```
