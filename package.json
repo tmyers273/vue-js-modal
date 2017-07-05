@@ -1,12 +1,12 @@
 {
-  "name": "vue-js-modal",
+  "name": "tmyers273/vue-js-modal",
   "description": "Modal Component for Vue.js",
   "version": "1.2.3",
   "author": "euvl <yev.vlasenko@gmail.com>",
   "main": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/euvl/vue-js-modal.git"
+    "url": "https://github.com/tmyers273/vue-modal"
   },
   "keywords": [
     "vue",
@@ -15,7 +15,7 @@
     "vue-js-modal"
   ],
   "bugs": {
-    "url": "https://github.com/euvl/vue-js-modal/issues"
+    "url": "https://github.com/tmyers273/vue-modal/issues"
   },
   "scripts": {
     "build:client": "webpack --config ./build/webpack.client.config.js --progress --hide-modules",
